@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 
 #local
-/data/
 /src/provided_scripts/
 /logs/
 /test_results/
