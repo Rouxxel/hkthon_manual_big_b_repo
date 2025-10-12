@@ -16,6 +16,14 @@ A key feature of the project is its ability to process PDF documents, extracting
 *   **Customer and Provider Management:** Keep track of all your business contacts in one place.
 *   **Inventory and Logistics Tracking:** Monitor your inventory levels and logistics operations.
 
+## Screenshots
+
+![Metrics](images/metrics.png)
+*Metrics Dashboard*
+
+![Ticket Summary](images/ticket_summary.png)
+*Ticket Summary*
+
 ## Technologies Used
 
 ### Frontend
@@ -25,17 +33,25 @@ A key feature of the project is its ability to process PDF documents, extracting
 *   **Vite:** A fast build tool for modern web development.
 *   **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
 *   **Shadcn/ui:** A collection of reusable UI components.
+*   **Lovable:** Used for frontend development.
 
 ### Backend & Automation
 
 *   **Python:** Used for various backend scripts, including data processing and API interactions.
 *   **n8n:** A workflow automation tool to connect different services and APIs.
+*   **Weaviate:** A vector database for inventory query.
+*   **Redis:** In-memory data store.
 *   **GitLab CI/CD:** For continuous integration and deployment.
 
 ### Data Processing
 
 *   **PDF Processing:** Scripts for extracting data from PDF files.
 *   **CSV Data Management:** Handling of business data stored in CSV files.
+
+## External Services
+
+*   **Landing.ai:** For scanning and parsing PDFs to an LLM.
+*   **APITemplate.io:** For PDF generation.
 
 ## Getting Started
 
